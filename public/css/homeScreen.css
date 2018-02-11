@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+
+.home-screen {
+  width: 100%;
+  min-width: 1440px;
+  height: 100%;
+  min-height: 1024px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+}
+
+
+.home-screen .header-border {
+  top                 : 56px;
+  height              : 17px;
+  width               : 1451px;
+  position            : absolute;
+  margin              : 0;
+  left                : -7px;
+}
+.home-screen .header {
+  top                 : 2px;
+  height              : 59px;
+  width               : 1425px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.home-screen .header .menu-icon {
+  top                 : 19px;
+  height              : 26px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.home-screen .header .menu-icon .line3 {
+  top                 : 9px;
+  height              : 6px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.home-screen .header .menu-icon .line2 {
+  top                 : 20px;
+  height              : 6px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.home-screen .header .menu-icon .line1 {
+  top                 : 0px;
+  height              : 6px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.home-screen .header .search-icon {
+  top                 : 0px;
+  height              : 59px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1371px;
+}
+.home-screen .header .search-icon .handle2 {
+  top                 : 25px;
+  height              : 34px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.home-screen .header .search-icon .handle1 {
+  top                 : 27px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.home-screen .header .search-icon .magnifying-glass {
+  top                 : 0px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.home-screen .map {
+  top                 : 65px;
+  height              : 942px;
+  width               : 1484px;
+  position            : absolute;
+  margin              : 0;
+  left                : -25px;
+}
+.home-screen .map .artist-clickable {
+  top                 : 149px;
+  height              : 452px;
+  width               : 452px;
+  position            : absolute;
+  margin              : 0;
+  left                : 518px;
+}
+.home-screen .map .artist-clickable .bubble1 {
+  top                 : 0px;
+  height              : 452px;
+  width               : 452px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.home-screen .map .artist-clickable .artist-name {
+  top                 : 268px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 133px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.home-screen .map .artist-clickable .artist-pic {
+  top                 : 51px;
+  height              : 195px;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+}
+.home-screen .map .path4 {
+  top                 : 507px;
+  height              : 216px;
+  width               : 580px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.home-screen .map .path3 {
+  top                 : 859px;
+  height              : 94px;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.home-screen .map .path2 {
+  top                 : 0px;
+  height              : 314px;
+  width               : 543px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.home-screen .map .path1 {
+  top                 : 320px;
+  height              : 62px;
+  width               : 526px;
+  position            : absolute;
+  margin              : 0;
+  left                : 958px;
+}
+.home-screen .map .bubble2 {
+  top                 : 812px;
+  height              : 139px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 342px;
+}
