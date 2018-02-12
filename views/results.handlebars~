@@ -4,7 +4,7 @@
 
     <!-- Side navigation -->
     <div class="sidenav">
-        <button onclick="goBack()">BACK</button>
+        <button onclick="goBack()"> << </button>
         <script>
             function goBack() {
                 window.history.back()
@@ -30,9 +30,9 @@
             
             <h3>Artists Found:</h3>
             <ul>
-                <li><a href="artistscreen.html">Placeholder 1</a></li>
-                <li><a href="artistscreen.html">Placeholder 2</a></li>
-                <li><a href="artistscreen.html">Placeholder 3</a></li>
+                <li><a href="artistscreen.handlebars">Placeholder 1</a></li>
+                <li><a href="artistscreen.handlebars">Placeholder 2</a></li>
+                <li><a href="artistscreen.handlebars">Placeholder 3</a></li>
         </div>
     </body>
 </html>

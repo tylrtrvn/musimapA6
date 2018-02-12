@@ -8,8 +8,19 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
+var artistscreen = require('./routes/artistscreen');
+var exampleArtist = require('./routes/exampleArtist');
+var help = require('./routes/help');
 var index = require('./routes/index');
+var library = require('./routes/library');
+var likeThis = require('./routes/likeThis');
 var menu = require('./routes/menu');
+var results = require('./routes/results');
+var search = require('./routes/search');
+var searchpage = require('./routes/searchpage');
+var settings = require('./routes/settings');
+var social = require('./routes/social');
+
 // Example route
 // var user = require('./routes/user');
 
@@ -35,8 +46,20 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+app.get('/artistscreen', artistscreen.view);
+app.get('/exampleArtist', exampleArtist.view);
+app.get('/help', help.view);
 app.get('/', index.view);
+app.get('/index', index.view);
+app.get('/library', library.view);
+app.get('/likeThis', likeThis.view);
 app.get('/menu', menu.view);
+app.get('/results', results.view);
+app.get('/search', search.view);
+app.get('/searchpage', searchpage.view);
+app.get('/settings', settings.view);
+app.get('/social', social.view);
+
 // Example route
 // app.get('/users', user.list);
 
