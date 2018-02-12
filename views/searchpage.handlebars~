@@ -11,7 +11,7 @@
                 window.history.back()
             }
         </script>
-        <button><a href="menu.html"> Menu</a></button>
+        <button><a href="menu"> Menu</a></button>
     </div>
 
 
@@ -30,7 +30,7 @@
                 <h2>Search Page</h2>
             </div>
 
-            <form action="results.html">
+            <form action="results">
                 Artist: <input type="text" name="search" value="Search Here"><br>
                 <input type="submit" value="Search">
             </form>

@@ -32,7 +32,7 @@
                         Help
                     </div>
                 </a>
-                <a href="homescreen">
+                <a href="index">
                     <img src="./img/menuclose menu.png" class="close-menu"/>
                 </a>
             </div>
