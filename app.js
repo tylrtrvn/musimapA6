@@ -47,6 +47,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/artistscreen', artistscreen.view);
+app.get('/artistscreen/:name', artistscreen.viewName);
 app.get('/exampleArtist', exampleArtist.view);
 app.get('/help', help.view);
 app.get('/', index.view);

@@ -29,13 +29,15 @@
                 <h2>My Library</h2>
             </div>
 
-            <h4>My Artists</h4>
-
-            <ul>
-                <li><a href="artistscreen">Iron Maiden</a></li>
-                <li><a href="artistscreen">Judas Priest</a></li>
-                <li><a href="artistscreen">Black Sabbath</a></li>
-            </ul>
+            {{#each artists}}
+            <div class="artists">
+                <img src="{{imageURL}}" alt="Artist Image" class="img-responsive">
+                <a href="artistscreen/{{name}}"><h3>{{name}}</h3></a>
+                <p>Genre: {{genre}}</p>
+                <p>Description: {{description}}</p>
+            </div>
+            <hr>
+            {{/each}}
            
         </div>
         <script src="js/jquery-1.11.0.js"></script>
