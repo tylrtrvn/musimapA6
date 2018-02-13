@@ -14,15 +14,14 @@ exports.viewName = function(req, res){
     console.log("Artist name: " + name);
     
     var artist;
-
-    for(var i = 0; i < data.length; i++) {
-        var obj = data[i];
+    for(var i = 0; i < data.artists.length; i++) {
+        var obj = data.artists[i];
 
         if(obj.name == name) {
             artist = obj;
-            console.log(artist);
+            console.log("Found: " + artist.name);
         }
     }
 
-    res.render('artistscreen', {});
+    res.render('artistscreen', artist);
 };
