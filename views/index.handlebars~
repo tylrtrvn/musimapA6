@@ -46,8 +46,14 @@
                     <img src="./img/home screenbubble 2.png" class="bubble2"/>
                 </div>
             </div>
+            <div>
+                    <form action="results">
+                        Example artist: <input type="text" name="search" value="Artist Name Here"><br>
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
         </div>
+        <script src="js/jquery-1.11.0.js"></script>
         <script src="js/bootstrap.js"></script>
-        <script src="js/hci-friends.js"></script>
     </body>
 </html>

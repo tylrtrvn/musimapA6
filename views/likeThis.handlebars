@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html>
+
     <!-- Side navigation -->
     <div class="sidenav">
         <button onclick="goBack()"> << </button>
@@ -13,7 +14,7 @@
     </div>
 
     <head>
-        <title>MusiMap</title>
+        <title>More Like This...</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet" />
@@ -26,20 +27,16 @@
         <div>
             <div>
                 <h1>MusiMap</h1>
-                <h2>My Library</h2>
+                <h2>More Like: Placeholder Artist</h2>
             </div>
-
-            {{#each artists}}
-            <div class="artists">
-                <a href="artistscreen/{{name}}"><h3>{{name}}</h3></a>
-            </div>
-            <hr>
-            {{/each}}
-           
+            
+            <ul>
+                <li><a href="exampleArtist">Placeholder 1</a></li>
+                <li><a href="exampleArtist">Placeholder 2</a></li>
+                <li><a href="exampleArtist">Placeholder 3</a></li>
         </div>
-        <script src="js/jquery-1.11.0.js"></script>
-        <script src="js/bootstrap.js"></script>
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
     </body>
 </html>
-
 

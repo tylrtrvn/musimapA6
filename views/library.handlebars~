@@ -32,7 +32,7 @@
             {{#each artists}}
             <div class="artists">
                 <img src="{{imageURL}}" alt="Artist Image" class="img-responsive">
-                <a href="aristscreen/{{name}}"><h3>{{name}}</h3></a>
+                <a href="artistscreen/{{name}}"><h3>{{name}}</h3></a>
                 <p>Genre: {{genre}}</p>
                 <p>Description: {{description}}</p>
             </div>
