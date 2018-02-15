@@ -60,6 +60,7 @@ app.get('/search', search.view);
 app.get('/searchpage', searchpage.view);
 app.get('/settings', settings.view);
 app.get('/social', social.view);
+app.get('/add/:name', library.addArtist);
 
 // Example route
 // app.get('/users', user.list);
